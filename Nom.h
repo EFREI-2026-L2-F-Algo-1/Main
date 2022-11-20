@@ -1,7 +1,3 @@
-//
-// Created by yassi on 19/11/2022.
-//
-
 #ifndef PROJET_ALGO_NOM_H
 #define PROJET_ALGO_NOM_H
 
