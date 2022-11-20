@@ -61,6 +61,30 @@ build CMakeFiles/Projet_algo.dir/Tree.c.obj: C_COMPILER__Projet_algo_Debug C$:/U
   OBJECT_DIR = CMakeFiles\Projet_algo.dir
   OBJECT_FILE_DIR = CMakeFiles\Projet_algo.dir
 
+build CMakeFiles/Projet_algo.dir/Adv.c.obj: C_COMPILER__Projet_algo_Debug C$:/Users/yassi/CLionProjects/Projet_algo/Adv.c || cmake_object_order_depends_target_Projet_algo
+  DEP_FILE = CMakeFiles\Projet_algo.dir\Adv.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\Projet_algo.dir
+  OBJECT_FILE_DIR = CMakeFiles\Projet_algo.dir
+
+build CMakeFiles/Projet_algo.dir/Adj.c.obj: C_COMPILER__Projet_algo_Debug C$:/Users/yassi/CLionProjects/Projet_algo/Adj.c || cmake_object_order_depends_target_Projet_algo
+  DEP_FILE = CMakeFiles\Projet_algo.dir\Adj.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\Projet_algo.dir
+  OBJECT_FILE_DIR = CMakeFiles\Projet_algo.dir
+
+build CMakeFiles/Projet_algo.dir/Nom.c.obj: C_COMPILER__Projet_algo_Debug C$:/Users/yassi/CLionProjects/Projet_algo/Nom.c || cmake_object_order_depends_target_Projet_algo
+  DEP_FILE = CMakeFiles\Projet_algo.dir\Nom.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\Projet_algo.dir
+  OBJECT_FILE_DIR = CMakeFiles\Projet_algo.dir
+
+build CMakeFiles/Projet_algo.dir/Verbe.c.obj: C_COMPILER__Projet_algo_Debug C$:/Users/yassi/CLionProjects/Projet_algo/Verbe.c || cmake_object_order_depends_target_Projet_algo
+  DEP_FILE = CMakeFiles\Projet_algo.dir\Verbe.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\Projet_algo.dir
+  OBJECT_FILE_DIR = CMakeFiles\Projet_algo.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Projet_algo
@@ -69,7 +93,7 @@ build CMakeFiles/Projet_algo.dir/Tree.c.obj: C_COMPILER__Projet_algo_Debug C$:/U
 #############################################
 # Link the executable Projet_algo.exe
 
-build Projet_algo.exe: C_EXECUTABLE_LINKER__Projet_algo_Debug CMakeFiles/Projet_algo.dir/main.c.obj CMakeFiles/Projet_algo.dir/Tree.c.obj
+build Projet_algo.exe: C_EXECUTABLE_LINKER__Projet_algo_Debug CMakeFiles/Projet_algo.dir/main.c.obj CMakeFiles/Projet_algo.dir/Tree.c.obj CMakeFiles/Projet_algo.dir/Adv.c.obj CMakeFiles/Projet_algo.dir/Adj.c.obj CMakeFiles/Projet_algo.dir/Nom.c.obj CMakeFiles/Projet_algo.dir/Verbe.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Projet_algo.dir
