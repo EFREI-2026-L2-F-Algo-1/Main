@@ -22,7 +22,7 @@ void FillTrees(void){
         return;
     }
 
-    // recup les forme de base des adverbes
+    // recup les lignes une par une, pour traiter les parties qui nous interessent
     while (fscanf(fic, "%s %s %s", fle,base,cara) != EOF) {
 
         switch(cara[2]){
